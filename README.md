@@ -1,5 +1,5 @@
 # megerteshaza
-A new homepage for Dr Zsuzsaanna Rochlitz
+A new homepage for Dr Zsuzsanna Rochlitz
 
 For this project I try to collect and show all my knowledge, and also make my employer satisfied.
 I'm deepening my studies on CodeBerry, and searching answers for my questions in previous projects, on the browser and from competent friends. 
