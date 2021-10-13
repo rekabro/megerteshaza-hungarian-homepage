@@ -1,0 +1,11 @@
+.main-header {
+    width: 100%;
+    text-align: center;
+	padding: 1.25rem;
+}
+
+.intro-section {
+    width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
