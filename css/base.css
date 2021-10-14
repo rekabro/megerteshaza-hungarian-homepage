@@ -28,10 +28,18 @@
     font-family: 'Merriweather', 'Times New Roman', serif;
     font-size: 1.125rem;
     line-height: 2rem;
-    width: 90vw;
      }
 
  h1, h2 {
     font-family: 'Lora', Arial, sans-serif;
+ }
+
+ h1,h2,h3,h4,h5,h6,hgroup,
+ ul,ol,dd,
+ p,figure,
+ pre,table,fieldset,hr,
+ img,
+ .main-header {
+     margin-bottom: 1rem;
  }
 

@@ -1,11 +1,21 @@
+
+/* ==== LAYOUT STYLES ==== */
+
+/* Main Header Styles */
+
 .main-header {
-    width: 100%;
     text-align: center;
 	padding: 1.25rem;
+    color: #fff;
+	background-color: #42444e;
 }
+
+/* Article Styles */
 
 .intro-section {
     width: 95%;
-	margin: 1.25rem auto;
+    margin: 0 auto 1rem;
 	padding: 0.3125rem;
 }
+
+/* breakpoints to use:  (min-width: 320px, 480px, 768px, 992px és 1200px) */
