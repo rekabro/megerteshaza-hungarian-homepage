@@ -1,7 +1,12 @@
 
 /* ==== LAYOUT STYLES ==== */
 
-/* Main Header Styles */
+/* Nav Styles */
+
+.main-nav {
+    position: fixed;
+}
+/* Header Styles */
 
 .main-header {
     text-align: center;
@@ -16,6 +21,13 @@
     width: 95%;
     margin: 0 auto 1rem;
 	padding: 0.3125rem;
+}
+
+/* Footer Styles/
+
+footer {
+    position: fixed;
+    bottom: 0;
 }
 
 /* breakpoints to use:  (min-width: 320px, 480px, 768px, 992px és 1200px) */
