@@ -1,6 +1,12 @@
 /**
 * CONTENTS
 *
+* Header Styles
+* Article Styles
+* Aside Styles
+* Programs Styles
+* Reflextions Styles
+* Footer Styles 
 **/
 
 
@@ -16,12 +22,23 @@
 /* Article Styles */
 
 .intro-section {
-    width: 95%;
-    margin: 0 auto 1rem;
-	padding: 0.3125rem;
     background-image: radial-gradient(circle, #330000,  #800000, #e60000);
 }
 
 .profile-card {
     text-align: center;
 }
+
+/* Aside Styles */
+/* Programs Styles */
+
+.program-section {
+background-color: burlywood;
+}
+/* Reflextions Styles */
+
+.reflection-section {
+background-color: cornsilk;
+}
+
+/* Footer Styles */
