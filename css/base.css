@@ -24,22 +24,37 @@
  *
  */
 
- body {
-    font-family: 'Merriweather', 'Times New Roman', serif;
-    font-size: 1.125rem;
-    line-height: 2rem;
-     }
+/* === SETTINGS === */
 
- h1, h2 {
-    font-family: 'Lora', Arial, sans-serif;
- }
+/* Variables */
+
+/* Box-sizing */
+
+* { box-sizing : border-box;
+    }
+
+/* Margins*/
 
  h1,h2,h3,h4,h5,h6,hgroup,
- ul,ol,dd,
- p,figure,
- pre,table,fieldset,hr,
- img,
- .main-header {
-     margin-bottom: 1rem;
- }
-
+    ul,ol,dd,
+    p,figure,
+    pre,table,fieldset,hr,
+    img {
+        margin-bottom: 1rem;
+    }
+    
+    
+/* === BASE STYLES === */
+    
+/* Headings */
+    
+    h1, h2 {
+        font-family: 'Lora', Arial, sans-serif;
+       }
+    
+/* Base font */
+    body {
+       font-family: 'Merriweather', 'Times New Roman', serif;
+       font-size: 1.125rem;
+       line-height: 2rem;
+        }
