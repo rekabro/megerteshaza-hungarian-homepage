@@ -3,6 +3,7 @@
 * CONTENTS
 *
 *Grid system............container and grid items.
+*Header fixed...........the header is a fixed element.
 *Flexboxes..............layout of elements.
 *Media queries..........responsive CSS rules.
 **/
@@ -16,16 +17,12 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 20% auto 5%;
-    grid-template-areas: "header header"
+    grid-template-rows: auto 5%;
+    grid-template-areas:
                          "aside main"
                          "footer footer";
 }
 
-.header {
-    grid-area: header;
-    background-color: rgb(39, 31, 31);
-}
 
 .aside {
     grid-area: aside;
@@ -41,6 +38,17 @@
     grid-area: footer;
     background-color: rgb(13, 44, 21);
 }
+
+
+/* ==== HEADER FIXED ==== */
+
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 10em;
+}
+
+
 
 /* ==== FLEXBOXES ==== */
 
