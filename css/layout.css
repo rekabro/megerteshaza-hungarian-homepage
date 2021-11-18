@@ -52,20 +52,29 @@
 
 /* ==== FLEXBOXES ==== */
 
-.main section {
-    margin: 3em;
-    padding: 2em;
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.reflection-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 /* ==== MEDIA QUERIES ==== */
-
-/* Nav Styles */
-
-.main-nav {
-    position: fixed;
-}
-
-/* Footer Styles */
 
 
 /* breakpoints to use:  (min-width: 320px, 480px, 768px, 992px és 1200px) */

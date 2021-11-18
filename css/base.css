@@ -28,6 +28,13 @@
 
 /* Variables */
 
+:root {
+    --bg-color1: #330000;
+    --bg-color2: #800000;
+    --bg-color3: #e60000;
+    --bg-color4: #c95d5d;
+  }
+
 /* Box-sizing */
 
 * { box-sizing : border-box;
