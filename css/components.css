@@ -20,16 +20,15 @@
 	background-image: linear-gradient( #110000, #410606, #b81111, #c95d5d);
 }
 
-.title {
-    width: 50%;
-}
+
 .header-title {
     font-family: 'Griffy', cursive;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .logo-image {
     width: 8em;
+    padding-top: 1em;
 }
 
 .icons {
@@ -39,8 +38,23 @@
 
 .icons:hover {
     color: lightskyblue;
-    transition-duration: 1.5s;
+    transform: rotate(360deg) scale(1.5);
+    transition: all .5s ease-in;
 }
+/* Media Queries */
+
+@media only screen and (min-width: 786px) {
+   
+    .title {
+        width: 50%;
+    }
+
+    .header-title {
+        font-family: 'Griffy', cursive;
+        font-size: 3em;
+    }
+}
+
 
 /* Main Styles */
 
@@ -56,14 +70,20 @@
     border-radius: 1%;
 }
 
+
 /* Article Styles */
 
 .intro-section {
-    background-image: radial-gradient(circle, #330000,  #800000, #e60000);
+    background-image: radial-gradient(circle, #001a00,  #004d00, rgba(59, 156, 48, 0.6), rgba(40, 180, 25, 0.4));
 }
 
 .profile-card {
     text-align: center;
+}
+
+.profile-card figcaption {
+font-size: 1.8em;
+font-weight: bold;
 }
 
 /* Aside Styles */
@@ -90,10 +110,16 @@ background-image: linear-gradient(180deg, #c95d5d 20%, #e60000, #800000, #330000
     transition-duration: 1.5s;
 }
 
+.aside-list-item:active {
+    color: rgb(1, 32, 1);
+}
+
 /* Programs Styles */
 
 .program-section {
-background-color: burlywood;
+background-color: rgb(173, 139, 93, 0.8);
+box-shadow: 5px -10px rgba(202, 228, 199, 0.4);
+border: 1px solid rgba(59, 156, 48);
 }
 /* Reflextions Styles */
 
@@ -109,3 +135,18 @@ background-color: burlywood;
 }
 
 /* Footer Styles */
+
+.footer-element {
+  padding: 1em;
+  color:rgba(59, 156, 48);
+  font-style: italic;
+}
+
+.footer-link {
+    color:rgba(59, 156, 48);
+}
+
+.footer-link:hover {
+    color: lightskyblue;
+    transition-duration: 1.5s;
+}
