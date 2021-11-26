@@ -26,21 +26,17 @@
 
 /* === SETTINGS === */
 
-/* Variables */
+/* === Variables === */
 
-:root {
-    --bg-color1: #330000;
-    --bg-color2: #800000;
-    --bg-color3: #e60000;
-    --bg-color4: #c95d5d;
-  }
 
-/* Box-sizing */
+/* === Box-sizing === */
 
-* { box-sizing : border-box;
+* { box-sizing: border-box;
     }
 
-/* Margins*/
+
+
+/* === Margins === */
 
  h1,h2,h3,h4,h5,h6,hgroup,
     ul,ol,dd,
@@ -50,18 +46,24 @@
         margin-bottom: 1rem;
     }
     
+   
     
 /* === BASE STYLES === */
     
-/* Headings */
+
+/* === Headings === */
     
     h1, h2, figcaption {
         font-family: 'Lora', Arial, sans-serif;
        }
     
-/* Base font */
+
+
+/* === Base font === */
+
     body {
+       width:       100%;
        font-family: 'Merriweather', 'Times New Roman', serif;
-       font-size: 1.125rem;
+       font-size:   1.125rem;
        line-height: 2rem;
         }
