@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async></script>
+      <script src="script.js" async></script>
   <title>Dr Rochlitz Zsuzsanna honlapja</title>
 </head>
 
@@ -25,9 +27,9 @@
         <h1 class="header-title">Megértés háza</h1>
       </div>
       <div class="nav">
-        <a href="#" class="icons"><i class="fa fa-envelope-o"></i></a>
-        <a href="#" class="icons"><i class="	fa fa-facebook-square"></i></a>
-        <a href="#" class="icons"><i class="	fa fa-font-awesome"></i></a>
+        <div><a href="mailto: rochlitzzsuzsa@megerteshaza.hu" class="icons icons1"><i class="fa fa-envelope-o"></i></a><span class="hidden-span hidden1">rochlitzzsuzsa@megerteshaza.hu</span></div>
+        <div><a href="https://www.facebook.com/search/top?q=meg%C3%A9rt%C3%A9s%20h%C3%A1za" target="blank" class="icons icons2"><i class="	fa fa-facebook-square"></i></a><span class="hidden-span hidden2">Keresse fel facebook-oldalam!</span></div>
+        <div><a href="https://www.google.com/maps/place/Budapest,+Vadk%C3%B6rte+u.+1,+1028+Magyarorsz%C3%A1g/@47.551608,18.9495017,17z/data=!3m1!4b1!4m5!3m4!1s0x4741d8a49dab87cb:0x71283757147fd1b1!8m2!3d47.551608!4d18.9516904" target="blank" class="icons icons3"><i class="	fa fa-font-awesome"></i></a><span class="hidden-span hidden3">1028 Budapest, Vadkörte utca 1.</span></div>
       </div>
     </header>
     <aside class="aside">
@@ -64,7 +66,7 @@
           <img src="pictures/profile.jpg" alt="Dr Rochlitz Zsuzsanna" id="profile-pic">
           <figcaption>Dr Rochlitz Zsuzsanna</figcaption>
         </figure>
-        <article>
+        <article class="article">
           <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -113,13 +115,13 @@
       <div class="footer-element">
         <h3>Elérhetőségek:</h3>
       </div>
-      <div class="footer-element"><a class="footer-link" href="">
+      <div class="footer-element"><a class="footer-link" target="blank" href="https://www.facebook.com/search/top?q=meg%C3%A9rt%C3%A9s%20h%C3%A1za">
           <h4>Facebook</h4>
         </a></div>
-      <div class="footer-element"><a class="footer-link" href="">
+      <div class="footer-element"><a class="footer-link" href="mailto: rochlitzzsuzsa@megerteshaza.hu">
           <h4>Email</h4>
         </a></div>
-      <div class="footer-element"><a class="footer-link" href="">
+      <div class="footer-element"><a class="footer-link" target="blank" href="https://www.google.com/maps/place/Budapest,+Vadk%C3%B6rte+u.+1,+1028+Magyarorsz%C3%A1g/@47.551608,18.9495017,17z/data=!3m1!4b1!4m5!3m4!1s0x4741d8a49dab87cb:0x71283757147fd1b1!8m2!3d47.551608!4d18.9516904">
           <h4>Helyszín</h4>
         </a></div>
     </footer>

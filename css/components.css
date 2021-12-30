@@ -43,15 +43,26 @@
 .icons {
     color:    black;
     font-size: 1em;
+    position: relative;
 }
 
 .icons:hover {
     color:      lightskyblue;
-    transform:  rotate(360deg) scale(1.5);
     transition: all .5s ease-in;
 }
 
-
+.hidden-span {
+    display:      none;
+    position:     fixed;
+    float:        right;
+    font-size:    0.5em;
+    margin-left:  1em;
+    border:       rgb(233, 221, 176) dashed 1px;
+    padding:      0.5em;
+    line-height:  1em;
+    word-wrap:    break-word;
+    max-width: 10em;
+}
 
 /* === HEADER MEDIA QUERIES === */
 
@@ -62,7 +73,7 @@
    }
 
    .logo-image {
-    width: 8em;
+    width: 5em;
    }
 
   .icons {
@@ -81,6 +92,10 @@
         font-family: 'Griffy', cursive;
         font-size:   2.5em;
     }
+
+    .logo-image {
+        width: 6em;
+       }
 }
 
 
@@ -94,6 +109,17 @@
         font-family: 'Griffy', cursive;
         font-size:   3em;
     }
+
+    .logo-image {
+        width: 7em;
+       }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .logo-image {
+        width: 8em;
+       }
 }
 
 
@@ -105,7 +131,7 @@
 
 .main {
    padding-top:     8em;
-   background:      url('https://images.freeimages.com/images/large-previews/512/damn-rainbows-1197002.jpg') no-repeat center center fixed;
+   background:      rgb(1, 32, 8) url('https://images.freeimages.com/images/large-previews/512/damn-rainbows-1197002.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -172,21 +198,31 @@
 
 
 .intro-section {
-    background-image: radial-gradient(circle, #083608,  #004d00, rgba(59, 156, 48, 0.6), rgba(40, 180, 25, 0.4));
+    color:rgb(2, 17, 2);
 }
 
 .profile-card {
     text-align: center;
+    padding: 2em 0;
+    background-image: radial-gradient(#110000, #110000, #410606, rgba(53, 15, 8, 0.8), rgba(175, 35, 10, 0.3), rgba(228, 84, 56, 0.07));
+    border-radius: 5%;
+    color: burlywood;
 }
 
 #profile-pic {
  width: 70%;
+ border-radius: 5%;
 }
 
 .profile-card figcaption {
     font-size:   1em;
     font-weight: bold;
     line-height: 1.2em;
+}
+
+.article {
+    background-color: rgba(233, 221, 176, 0.8);
+    padding: 0.8em;
 }
 
 .intro-text {
@@ -281,6 +317,10 @@
     .aside-list-item:hover, .knowledge-fields:hover {
         color:              lightskyblue;
         transition-duration: 1.5s;
+    }
+    
+    #therapy-fields:hover {
+        color: #330000;
     }
     
     .aside-list-item:active, .knowledge-fields:active {
@@ -401,6 +441,10 @@
 
 /* === FOOTER STYLES === */
 
+
+.footer {
+    background-color: rgb(13, 44, 21);
+}
 
 .footer-element {
   padding:    1em;

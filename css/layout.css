@@ -17,7 +17,7 @@
     height:                100vh;
     display:               grid;
     grid-template-columns: 100%;
-    grid-template-rows:    auto 10%;
+    grid-template-rows:    auto 12%;
     grid-template-areas:
                            "main"
                            "footer";
@@ -25,12 +25,10 @@
 
 .main {
     grid-area:        main;
-    background-color: rgb(71, 9, 9);
 }
 
 .footer {
     grid-area:        footer;
-    background-color: rgb(13, 44, 21);
 }
 
 
@@ -90,12 +88,6 @@
 /* breakpoints to use:  (480px, 768px, 992px és 1200px) */
 
 
-@media only screen and (min-width: 480px) {
-  
-    .header {
-      height: 10em;
-    }
-}
 
 @media only screen and (min-width: 768px) {
 
@@ -104,26 +96,29 @@
         height:                100vw;
         display:               grid;
         grid-template-columns: 28% 72%;
-        grid-template-rows:    auto 10%;
+        grid-template-rows:    auto 13%;
         grid-template-areas:
                                "aside main"
                                "footer footer";
-        background-color:      rgb(13, 44, 21);
     }
     
     .aside {
         grid-area:        aside;
-        background-color: rgb(42, 126, 165);
     }
     
     .main {
         grid-area:        main;
-        background-color: rgb(71, 9, 9);
     }
     
     .footer {
         grid-area:        footer;
-        background-color: rgb(13, 44, 21);
         
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+    .header {
+      height: 10em;
     }
 }

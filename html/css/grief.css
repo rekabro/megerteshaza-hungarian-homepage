@@ -1,0 +1,18 @@
+
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(7, 7, 43) url(/pictures/background-stars.jpg) center fixed;
+    background-size: cover;
+    color: rgb(182, 201, 243);
+}
+
+h2 {
+    text-shadow: 4px 4px rgb(33, 32, 77);
+    color:rgb(74, 144, 236);
+}
+
+.icon {
+    color: rgb(182, 201, 243);
+}
