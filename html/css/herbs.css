@@ -1,0 +1,30 @@
+
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(240, 210, 42) url(/pictures/meadow.jpg) center fixed;
+    background-size: cover;
+    color: rgb(39, 16, 2);
+}
+
+h2 {
+    color:rgb(70, 35, 3);
+    text-shadow: 4px 4px rgb(228, 207, 140);
+}
+
+.icon {
+    color: rgb(156, 51, 3);
+}
+
+p {
+    background-color: rgba(238, 224, 182, 0.5);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.referring {
+    background-color: rgba(164, 175, 137, 0.5);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}

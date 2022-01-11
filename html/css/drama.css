@@ -1,0 +1,31 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/camels.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(44, 43, 2);
+    color:rgb(235, 234, 200);
+}
+
+p {
+    background-color: rgba(164, 175, 137, 0.5);
+    color:rgb(22, 14, 2);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.icon {
+    color: rgb(235, 234, 200);
+    background-color: rgba(164, 175, 137, 0.2);
+}
+
+.referring {
+    background-color: rgba(164, 175, 137, 0.5);
+    color:rgb(22, 14, 2);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}
