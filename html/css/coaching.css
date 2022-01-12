@@ -1,0 +1,32 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/butterfly.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 4px 4px rgb(44, 43, 2);
+    color:rgb(235, 234, 200);
+}
+
+p {
+    background-color: rgba(197, 223, 233, 0.5);
+    color:rgb(22, 14, 2);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+
+.icon {
+    color: rgb(9, 104, 107);
+    text-shadow: 4px 4px rgb(245, 244, 185);
+}
+
+.referring {
+    background-color: rgba(197, 223, 233, 0.5);
+    color:rgb(22, 14, 2);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}

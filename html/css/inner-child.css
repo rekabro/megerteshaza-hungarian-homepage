@@ -1,0 +1,30 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/fox.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(46, 39, 7);
+    color:rgb(206, 98, 10);
+}
+
+p {
+    background-color: rgba(17, 17, 3, 0.6);
+    color:rgb(221, 215, 163);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.icon {
+    color: rgb(193, 224, 192);
+}
+
+.referring {
+    background-color: rgba(17, 17, 3, 0.6);
+    color:rgb(221, 215, 163);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}

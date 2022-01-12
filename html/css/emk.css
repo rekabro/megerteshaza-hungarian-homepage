@@ -1,0 +1,33 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/bridge.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 3px 3px rgb(2, 30, 39);
+    color:rgb(35, 208, 214);
+    
+}
+
+p {
+    background-color: rgba(212, 230, 245, 0.6);
+    color:rgb(1, 27, 31);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.icon {
+    color: rgb(35, 208, 214);
+    background-color: rgba(164, 175, 137, 0.4);
+    text-shadow: 3px 3px rgb(2, 30, 39);
+}
+
+.referring {
+    background-color: rgba(212, 230, 245, 0.6);
+    color:rgb(1, 27, 31);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}

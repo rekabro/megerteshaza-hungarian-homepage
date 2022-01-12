@@ -1,0 +1,31 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/storm.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 4px 4px rgb(44, 43, 2);
+    color:rgb(235, 234, 200);
+}
+
+p {
+    background-color: rgba(228, 230, 164, 0.5);
+    color:rgb(46, 9, 2);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.icon {
+    color: rgb(235, 234, 200);
+    text-shadow: 4px 4px rgb(44, 43, 2);
+}
+
+.referring {
+    background-color: rgba(228, 230, 164, 0.5);
+    color:rgb(46, 9, 2);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}

@@ -1,0 +1,32 @@
+
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(88, 115, 173) url(/pictures/seashells.jpg) center fixed;
+    background-size: cover;
+    color: rgb(34, 3, 92);
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(202, 171, 195);
+    color:rgb(129, 11, 31);
+    background-color: rgba(164, 175, 137, 0.2);
+}
+
+p {
+    background-color: rgba(236, 236, 197, 0.5);
+    color:rgb(68, 3, 14);
+    padding: 0.5em;
+    border-radius: 5%;
+}
+.icon {
+    color: rgb(129, 11, 31);
+    background-color: rgba(164, 175, 137, 0.2);
+}
+
+.referring {
+    background-color: rgba(236, 236, 197, 0.5);
+    color:rgb(68, 3, 14);
+    padding: 0 0.8em;
+    border-radius: 5%;
+}
