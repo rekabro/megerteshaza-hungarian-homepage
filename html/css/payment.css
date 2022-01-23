@@ -1,0 +1,43 @@
+/* --- CONTENTS --- */
+
+.container {
+    background-image: radial-gradient(rgb(1, 32, 13), rgb(3, 41, 18), rgb(6, 66, 29), rgb(21, 119, 59), rgb(80, 172, 115));
+    background-size: cover;
+}
+
+h2 {
+    text-shadow: 2px 2px rgb(228, 77, 8);
+    color:rgb(231, 207, 211);
+}
+
+h3 {
+  font-size: 1.6em;
+  color:rgb(1, 20, 8);
+  text-align: center;
+}
+
+p {
+    color:rgb(1, 20, 8);
+    padding: 0.5em;
+    font-style: italic;
+}
+
+.account-number {
+ font-style: normal;
+ font-size: 1.5em;
+}
+
+.icon {
+    color: rgb(228, 206, 210);
+}
+
+.referring {
+    background-color: rgba(212, 230, 245, 0.3);
+    padding: 0 1em 3em;
+    border-radius: 5%;
+    position: relative;
+}
+
+.picture-viewer {
+    height: 8em;
+}

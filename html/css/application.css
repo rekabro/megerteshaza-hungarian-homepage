@@ -1,0 +1,71 @@
+/* --- CONTENTS --- */
+
+.container {
+    background:  rgb(141, 141, 214) url(/pictures/beach.jpg) center fixed;
+    background-size: cover;
+    color: rgb(12, 30, 68);
+}
+
+h2 {
+    text-shadow: 4px 4px rgb(144, 142, 238);
+    color:rgb(4, 28, 59);
+}
+
+a {
+    margin-left: 2em;
+}
+
+ #mail {
+     font-size: 0.8em;
+ }
+
+.icon {
+    color: rgb(6, 44, 124);
+}
+
+.textbox {
+    background-color: rgba(233, 221, 176, 0.6);   
+    border-radius: 5%;
+}
+
+.added-text {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+@media only screen and (min-width: 480px) {
+
+.textbox {
+    padding: 1em 0.2em;
+}
+
+h4 {
+    padding-bottom: 1.2em;
+}
+
+.added-text {
+    font-size: 0.9em;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    h4 {
+        font-size: 1.2em;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .textbox {
+        padding: 0.8em;
+    }
+
+    h4 {
+        font-size: 1.4em;
+        padding-bottom: 1.5em;
+    }
+    
+}
