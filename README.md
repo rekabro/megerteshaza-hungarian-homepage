@@ -1,9 +1,8 @@
 # megerteshaza
 A new homepage for Dr Zsuzsanna Rochlitz
 
-For this project I try to collect and show all my knowledge, and also make my employer satisfied.
-I'm deepening my studies on CodeBerry, and searching answers for my questions in previous projects, on the browser and from competent friends. 
-There seems to be quite few challenge, but this makes it interesting!
+This is a soon working website, developed together with the employer, who runs a personal business as therapist and doctor. Through this project I try to show my knowledge, and gather experience.
+
 
 Feladatok
 •	Alapvető honlapszerkezet, HTML váz, szövegek és linkek beillesztése
