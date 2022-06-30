@@ -26,7 +26,7 @@
     text-align:       center;
 	padding:          1.25rem;
     color:            burlywood;
-	background-image: linear-gradient( #110000, #410606, #b81111, #c95d5d);
+	background: #410606;
 }
 
 .header-title {
@@ -297,7 +297,7 @@
 
    .aside {
     display:          block;
-    background-image: linear-gradient(180deg, #c95d5d 20%, #e60000, #800000, #330000);
+    background-image: linear-gradient(180deg, #330000 10%, #800000, #e60000, #c95d5d);
     }
     
     .aside-list {
