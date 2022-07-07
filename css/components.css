@@ -24,30 +24,36 @@
 
 .header {
     text-align:       center;
-	padding:          1.25rem;
-    color:            burlywood;
-	background: #410606;
+	padding:          0.5rem;
+    color:            rgb(240, 210, 171);
+	background:       #410606;
+    border-bottom:    5px rgba(240, 210, 171, 0.3) solid;
 }
 
 .header-title {
     font-family: 'Griffy', cursive;
-    font-size:   1.7em;
-    padding:     1em;
+    padding:     0.5em;
 }
 
+
 .logo-image {
-    width:       4em;
-    padding-top: 1em;
+    margin-top: 1em;
+    border: 5px rgb(240, 210, 171) solid;
+    border-radius: 10%;
+}
+
+.logo-image:hover {
+    border: 5px rgba(240, 210, 171, 0.3) solid;
 }
 
 .icons {
-    color:    black;
+    color:    rgb(240, 210, 171);
     font-size: 1em;
     position: relative;
 }
 
 .icons:hover {
-    color:      lightskyblue;
+    color:      rgba(240, 210, 171, 0.3);
     transition: all .5s ease-in;
 }
 
@@ -61,8 +67,9 @@
     padding:      0.5em;
     line-height:  1em;
     word-wrap:    break-word;
-    max-width: 10em;
+    max-width:    10em;
 }
+
 
 /* === HEADER MEDIA QUERIES === */
 
@@ -73,7 +80,7 @@
    }
 
    .logo-image {
-    width: 5em;
+    width: 3em;
    }
 
   .icons {
@@ -94,7 +101,7 @@
     }
 
     .logo-image {
-        width: 6em;
+        width: 4em;
        }
 }
 
@@ -107,18 +114,18 @@
 
     .header-title {
         font-family: 'Griffy', cursive;
-        font-size:   3em;
+        font-size:   2.7em;
     }
 
     .logo-image {
-        width: 7em;
+        width: 5em;
        }
 }
 
 @media only screen and (min-width: 1200px) {
     
     .logo-image {
-        width: 8em;
+        width: 5em;
        }
 }
 
@@ -153,10 +160,15 @@
     transition-duration: 1.5s;
 }
 
+
+
+
+/* === MAIN MEDIA QUERIES === */
+
 @media only screen and (min-width: 480px) {
    
     .main {
-        padding-top: 10em;
+        padding-top: 8em;
     }
 
     .main section {
@@ -172,9 +184,6 @@
 }
 
 
-
-/* === MAIN MEDIA QUERIES === */
-
 @media only screen and (min-width: 768px) {
    
     #menu-icon {
@@ -185,8 +194,10 @@
 @media only screen and (min-width: 992px) {
 
     .main {
-        padding-top: 12em;
+        padding: 8em 0 2em;
     }
+
+  
 }
 
 
@@ -203,26 +214,27 @@
 
 .profile-card {
     text-align: center;
+    width: 65%;
     padding: 2em 0;
-    background-image: radial-gradient(#110000, #110000, #410606, rgba(53, 15, 8, 0.8), rgba(175, 35, 10, 0.3), rgba(228, 84, 56, 0.07));
-    border-radius: 5%;
-    color: burlywood;
+    background-image: radial-gradient(#410606, rgba(53, 15, 8, 0.8));
+    color: rgb(240, 210, 171);
 }
 
 #profile-pic {
- width: 70%;
+ width: 90%;
  border-radius: 5%;
 }
 
 .profile-card figcaption {
     font-size:   1em;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.2em;
 }
 
 .article {
     background-color: rgba(233, 221, 176, 0.8);
     padding: 0.8em;
+    width: 90%;
 }
 
 .intro-text {
@@ -239,7 +251,7 @@
 @media only screen and (min-width: 480px) {
 
     .intro-section {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -250,7 +262,7 @@
     }
 
     #profile-pic {
-        width: 40%;
+        width: 90%;
     }
 
     .profile-card figcaption {
@@ -266,16 +278,21 @@
 @media only screen and (min-width: 992px) {
 
     .intro-section {
-        width: 80%;
+        width: 70%;
     }
 
     .profile-card figcaption {
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
 
     .intro-text {
         font-size:   0.9em;
         line-height: 1.2em;
+    }
+    .profile-card {
+        width: 100%;
+        height: 100%;
+        margin: 0;
     }
 }
 
@@ -297,34 +314,32 @@
 
    .aside {
     display:          block;
-    background-image: linear-gradient(180deg, #330000 10%, #800000, #e60000, #c95d5d);
+    background-color: #410606;
     }
     
     .aside-list {
         list-style-type: none;
         line-height:     1.5em;
-        font-weight:     600;
+        font-weight:     580;
         font-size:       0.9em;
-        padding-top:     12em;
+        padding-top:    6em;
         margin-left:     -0.5em;
     }
     
     .aside-list-item {
         text-decoration: none;
-        color:          #330000;
+        color:          rgb(240, 210, 171);
     }
     
     .aside-list-item:hover, .knowledge-fields:hover {
-        color:              lightskyblue;
-        transition-duration: 1.5s;
+        color:              rgb(241, 164, 62);
+        text-decoration: underline;
+        transition-duration: 0.5s;
     }
     
-    #therapy-fields:hover {
-        color: #330000;
-    }
     
     .aside-list-item:active, .knowledge-fields:active {
-        color: rgb(1, 32, 1);
+        color: rgb(196, 124, 29);
     }
     
     .knowledge-list {
@@ -335,12 +350,10 @@
     .knowledge-fields {
         font-size:       0.9em;
         text-decoration: none;
-        color:           #0e3d03;
+        color:           rgb(240, 193, 132);
+        font-weight: 500;
     }
     
-    #therapy-fields {
-        margin-top: 0.1em;
-    }
 }
 
 
@@ -348,7 +361,7 @@
     
     .aside-list {
         font-size:   1em;
-        line-height: 1.8em;
+        line-height: 2em;
     }
     
 }
@@ -443,18 +456,19 @@
 
 
 .footer {
-    background-color: rgb(13, 44, 21);
+    background-color: rgb(240, 210, 171);
+    border-top:    5px rgb(180, 111, 54) solid;
 }
 
 .footer-element {
   padding:    1em;
-  color:      rgba(59, 156, 48);
+  color:      #410606;
   font-style: italic;
   font-size:  0.6em;
 }
 
 .footer-link {
-    color:rgba(59, 156, 48);
+    color: #410606;
 }
 
 .footer-link:hover {
