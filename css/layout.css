@@ -16,7 +16,7 @@
     width:                 100vw;
     display:               grid;
     grid-template-columns: 100%;
-    grid-template-rows:    auto 8%;
+    grid-template-rows:    auto 7%;
     grid-template-areas:
                            "main"
                            "footer";
@@ -32,8 +32,7 @@
 
 
 
-
-/* ==== HEADER FIXED ==== */
+/* ==== HEADER + ASIDE FIXED ==== */
 
 .header {
     position: fixed;
@@ -47,6 +46,9 @@
     }
 }
 
+.aside-list {
+    position: fixed;
+}
 
 /* ==== FLEXBOXES ==== */
 
@@ -55,6 +57,7 @@
     flex-direction:  row;
     justify-content: space-evenly;
     align-items:     center;
+    width: 100vw;
 }
 
 .nav {
@@ -72,6 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
 }
 
 .reflection-section {
@@ -97,16 +101,19 @@
 
 /* breakpoints to use:  (480px, 768px, 992px és 1200px) */
 
-
+@media only screen and (min-width: 480px) {
+.intro-section {
+    flex-direction: row;
+}
+}
 
 @media only screen and (min-width: 768px) {
 
     .container {
         width:                 100vw;
-        height:                100vw;
         display:               grid;
-        grid-template-columns: 20% 80%;
-        grid-template-rows:    auto 6em;
+        grid-template-columns: 27% 73%;
+        grid-template-rows:    auto 5em;
         grid-template-areas:
                                "aside main"
                                "footer footer";
@@ -122,7 +129,18 @@
     
     .footer {
         grid-area:        footer;
-        
     }
 }
 
+@media only screen and (min-width: 992px) {
+
+    .container {
+        width:                 100vw;
+        display:               grid;
+        grid-template-columns: 22% 78%;
+        grid-template-rows:    auto 5em;
+        grid-template-areas:
+                               "aside main"
+                               "footer footer";
+    }
+}
