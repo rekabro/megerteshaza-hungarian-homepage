@@ -349,14 +349,14 @@
    .aside {
     display:          block;
     background-color: #410606;
-    z-index: 2;
+    z-index:          2;
     }
     
     .aside-list {
         list-style-type: none;
-        line-height:     1.9em;
+        line-height:     1.7em;
         font-weight:     580;
-        font-size:       0.9em;
+        font-size:       0.8em;
         padding-top:    12em;
         margin-left: -1.3em;
     }
@@ -401,7 +401,7 @@
     .aside-list {
         margin-top: 4em;
         font-size:   1em;
-        line-height: 2em;
+        line-height: 1.7em;
         margin-left: -1em;
         padding-top: 6em;
     }
@@ -415,7 +415,7 @@
     
     .aside-list {
         margin: 1em 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .knowledge-list {
         margin-left: -0.5em;
@@ -431,9 +431,15 @@
 .program-section {
   background-color: rgb(240, 193, 132, .9);
   box-shadow:       5px -10px rgba(202, 228, 199, 0.4);
-  border:           1px solid rgb(241, 164, 62);
   width: 70%;
   padding: 1em;
+}
+
+.program-div {
+margin: 1em;
+padding: 1em;
+border: 1px solid rgb(241, 164, 62);
+background-color: rgba(233, 221, 176, 0.8);
 }
 
 .section-title {
